@@ -1,0 +1,29 @@
+GET http://localhost:8080/books
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoidG9sZWRvIn0.6ryuja58ySzYHwxVjKCJlsNZ6FiXCvE6t-eQR4EhGCE
+
+{
+  "title": "Too easy to be true"
+}
+
+###
+
+GET http://localhost:8080/books/2fdc03c0-523c-4625-84fc-8a5b69585e81
+Content-Type: application/json
+
+###
+
+POST http://localhost:8080/signup
+Content-Type: application/json
+
+{
+  "name": "toledo",
+  "password": "passwd"
+}
+
+###
